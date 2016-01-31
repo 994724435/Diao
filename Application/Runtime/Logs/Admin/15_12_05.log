@@ -1,0 +1,1118 @@
+[ 2015-12-05T09:04:45+08:00 ] ::1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-05T09:04:46+08:00 ] ::1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-12-05T09:04:46+08:00 ] ::1 /Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T09:04:56+08:00 ] ::1 /Admin/User/verify.html?0.4889595666900277
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T09:04:57+08:00 ] ::1 /Admin/User/verify.html?0.959678101586178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T09:04:59+08:00 ] ::1 /Admin/User/verify.html?0.003010491607710719
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T09:05:06+08:00 ] ::1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_username` = 'admin6' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T09:05:06+08:00 ] ::1 /Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T09:05:06+08:00 ] ::1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 225 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 454 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 457 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T09:05:09+08:00 ] ::1 /Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ast_artcate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_article` INNER JOIN `ast_artcate` ON ast_article.art_cateid = ast_artcate.cate_id  ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_artcomment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ast_artcomment`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: show D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 83 行.
+SQL: UPDATE `ast_article` SET `art_isshow`='1' WHERE `art_id` = null [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T09:05:14+08:00 ] ::1 /Admin/Article/index/cid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_artcate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT `cate_id` FROM `ast_artcate` WHERE `cate_pid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_article` WHERE `art_cateid` IN ('16') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_article` INNER JOIN `ast_artcate` ON ast_article.art_cateid = ast_artcate.cate_id  WHERE `art_cateid` IN ('16') ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_artcomment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_artcomment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: show D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 83 行.
+SQL: UPDATE `ast_article` SET `art_isshow`='1' WHERE `art_id` = null [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T09:05:20+08:00 ] ::1 /Admin/Article/sort
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_artcate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_artcate` ORDER BY cate_order ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sid D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\12311c12bc36339adb7ad848c86bddea.php 第 135 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\12311c12bc36339adb7ad848c86bddea.php 第 498 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\12311c12bc36339adb7ad848c86bddea.php 第 727 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\12311c12bc36339adb7ad848c86bddea.php 第 730 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T11:54:28+08:00 ] ::1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 225 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 454 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 457 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-05T11:54:32+08:00 ] ::1 /Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_artcate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_article` INNER JOIN `ast_artcate` ON ast_article.art_cateid = ast_artcate.cate_id  ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_artcomment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_artcomment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: show D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 83 行.
+SQL: UPDATE `ast_article` SET `art_isshow`='1' WHERE `art_id` = null [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:54:34+08:00 ] ::1 /Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_artcate` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0 ORDER BY cate_id ASC  [ RunTime:0.0000s ]
+SQL: SELECT `art_order` FROM `ast_article` ORDER BY art_order DESC LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: htmlData D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 143 行.
+NOTIC: [8] Undefined variable: htmlData D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 143 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 318 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 547 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:16+08:00 ] ::1 /Admin/User/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T11:55:17+08:00 ] ::1 /Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T11:55:17+08:00 ] ::1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:17+08:00 ] ::1 /Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:23+08:00 ] ::1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T11:55:23+08:00 ] ::1 /Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-05T11:55:23+08:00 ] ::1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 225 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 454 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 457 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:30+08:00 ] ::1 /Admin/User/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:37+08:00 ] ::1 /Admin/User/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-05T11:55:40+08:00 ] ::1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 225 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 454 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 457 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:42+08:00 ] ::1 /Admin/User/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:44+08:00 ] ::1 /Admin/Index/acc_ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_username` = ''  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:49+08:00 ] ::1 /Admin/Setup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_seo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_seo` WHERE `seo_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 229 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 458 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-05T11:55:56+08:00 ] ::1 /Admin/Setup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_seo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_seo` WHERE `seo_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 229 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 458 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:55:59+08:00 ] ::1 /Admin/Setup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_seo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_seo` WHERE `seo_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 229 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 458 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:56:02+08:00 ] ::1 /Admin/Setup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_seo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_seo` WHERE `seo_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 229 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 458 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-05T11:56:09+08:00 ] ::1 /Admin/Setup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_seo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_seo` WHERE `seo_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 229 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 458 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:56:12+08:00 ] ::1 /Admin/Setup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_seo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_seo` WHERE `seo_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 229 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 458 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\1ed00ded67991c8903d0f63b15c80d07.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:56:25+08:00 ] ::1 /Admin/Link/img_link
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_img_link` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_banner_page` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_banner_page`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_img_link` WHERE `img_pageid` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\41ec97204a97139908571ded9355ad97.php 第 402 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\41ec97204a97139908571ded9355ad97.php 第 631 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\41ec97204a97139908571ded9355ad97.php 第 634 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:56:30+08:00 ] ::1 /Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_product` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_procate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_product` INNER JOIN `ast_procate` ON ast_product.pro_cate_id = ast_procate.cate_id  ORDER BY pro_addtime DESC LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_procomment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procomment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-05T11:56:47+08:00 ] ::1 /Admin/Product/editor/aid/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_product` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_procate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_product` INNER JOIN `ast_procate` ON ast_product.pro_cate_id = ast_procate.cate_id  WHERE `pro_id` = '12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cate_id D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\ff1da0ba5422663b3c19722bb1f1956c.php 第 136 行.
+NOTIC: [8] Undefined variable: htmlData D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\ff1da0ba5422663b3c19722bb1f1956c.php 第 150 行.
+NOTIC: [8] Undefined variable: htmlData D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\ff1da0ba5422663b3c19722bb1f1956c.php 第 150 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\ff1da0ba5422663b3c19722bb1f1956c.php 第 319 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\ff1da0ba5422663b3c19722bb1f1956c.php 第 548 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\ff1da0ba5422663b3c19722bb1f1956c.php 第 551 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:57:21+08:00 ] ::1 /Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_artcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_artcate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_article` INNER JOIN `ast_artcate` ON ast_article.art_cateid = ast_artcate.cate_id  ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_artcomment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_artcomment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: show D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\tp\Application\Admin\Controller\ArticleController.class.php 第 83 行.
+SQL: UPDATE `ast_article` SET `art_isshow`='1' WHERE `art_id` = null [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:57:25+08:00 ] ::1 /Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_procate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_product` INNER JOIN `ast_procate` ON ast_product.pro_cate_id = ast_procate.cate_id  ORDER BY pro_addtime DESC LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_procomment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_procomment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:57:31+08:00 ] ::1 /Admin/Product/index.html?q=%E5%8A%A0%E7%BB%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_product` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_procate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_product` WHERE `pro_name` LIKE '%加绒%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_product` INNER JOIN `ast_procate` ON ast_product.pro_cate_id = ast_procate.cate_id  WHERE `pro_name` LIKE '%加绒%' ORDER BY pro_addtime DESC LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_procomment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procomment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-05T11:57:44+08:00 ] ::1 /Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_product` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_procate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_product` INNER JOIN `ast_procate` ON ast_product.pro_cate_id = ast_procate.cate_id  ORDER BY pro_addtime DESC LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_procomment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procomment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-05T11:57:52+08:00 ] ::1 /Admin/Product/index.html?q=etina
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ast_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_admin`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ast_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_nav`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for getAdminPage(), called in D:\xampp\htdocs\tp\Application\Admin\Controller\CommonController.class.php on line 51 and defined D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: num D:\xampp\htdocs\tp\Application\Common\Common\function.php 第 4 行.
+SQL: SELECT * FROM `ast_admin` ORDER BY admin_id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ast_product` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ast_procate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ast_procate` WHERE `cate_pid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ast_product` WHERE `pro_name` LIKE '%etina%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_product` INNER JOIN `ast_procate` ON ast_product.pro_cate_id = ast_procate.cate_id  WHERE `pro_name` LIKE '%etina%' ORDER BY pro_addtime DESC LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ast_procomment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ast_procomment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Undefined index: mentNum D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 158 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

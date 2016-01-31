@@ -1,0 +1,49 @@
+<include file="Common/header" />
+<style>
+	table tr td{border: 1px solid #eaeaea; line-height: 35px; background: #F6F6F6; width: 928px; color: #646464; } table{margin-left: 20px; margin-top: 20px; } b{color: #b0b0b0; } .table_title td{border: none; background: #EAEAEA; } .tab1{width: 75px; padding-left: 5px; text-align: center; } .tab3{width: 98px; padding-left: 12px; } .tab2{width: 348px; padding-left: 24px; text-align: left; } .tab4{width: 126px; padding-left: 12px; } #nav .tab5{border-right: 1px solid #ccc; } .tab5{width: 198px; padding-left: 20px; } .off{display:none; } .on{display:block; background: #DBDBDB; border: 2px solid #D1D1D1; padding-left: 14px; } .delete{color: #CB853A; } .look{color: #646464; display: inline-block; } .shut{color: #646464; display: none; } .see{display: inline-block; color: #C423BC; } .close{display: none; color: #C423BC; } .time{float: right; padding-right: 10px; }.page_link{float: right;}
+</style>
+<div class="rightfix">
+  	<a href="{:U('/index.php/Admin/Index/index')}" class="home1"></a><a class="home_pass"></a><a class="home_now">名师简介</a>
+
+  	<div class="clear"></div>
+  	 <p style="margin:10px 0 0 50px;color: red;">
+  	 	提示：为前台美观，首页名师简介的每一行对应每一个内容（18字内） 标签1、2、3是前台轮播图三行
+  	 	       
+  	 </p>
+  	<table CellSpacing=0>
+  		<div class="table_title">
+  			<tr style="text-align: center;">
+	  			<td ><b>姓名</b></td>
+	  			<td ><b>职位</b></td>
+	  			<td ><b>内容详情</td>
+	  			<td ><b>标签1</td>
+	  			<td ><b>标签2</td>
+	  			<td class="tab2"><b>标签3</td>			
+	  			<td ><b>操作</b></td>
+  			</tr>
+  		</div>
+ 		<div class="clear"></div>
+ 		
+ 		<foreach name="data" item="val">
+ 			<form method="post" action="">
+	  		<tr style="text-align: center;">
+	  			<td ><input type="text" name="title" id="" value="{$val.i_title}" style="width: 50px;"/></td>
+	  			<td ><textarea name="job" rows="3" cols="10">{$val.i_job}</textarea></td>
+	  			<td ><textarea name="content"   rows="5" cols="19">{$val.i_content}</textarea></td>
+	  			<td ><textarea name="content0"   rows="5" cols="19">{$val.i_content1}</textarea></td>
+	  			<td ><textarea name="content2"   rows="5" cols="19">{$val.i_content2}</textarea></td>
+	  			<td class="tab2"><textarea name="content3"   rows="5" cols="19">{$val.i_content3}</textarea></td>
+	  			<td ><a class="see"><input type="submit" value="修改" name="" /></a>
+	  				<input type="hidden" name="id" id="" value="{$val.i_id}" />
+	  			<a class="see" href="/index.php/Admin/Member/picload/id/{$val.i_id}"><input type="button" value="图片上传" name="" /></a>	
+	  			</td>
+	  		</tr>
+	  		</form>
+  		</foreach>
+  	</table>
+  	<!-- 权限判断 -->
+<input type="hidden" name="power" value="{$current_admin.admin_power}">
+
+<include file="Common/alert" />
+</body>
+</html>

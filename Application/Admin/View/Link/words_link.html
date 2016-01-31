@@ -1,0 +1,163 @@
+<include file="Common/header" />
+<div class="rightfix">
+  <a class="home1"></a><a class="home_pass">友情链接</a><a class="home_now">文字连接</a><a href="/Admin/Link/words_add" class="home_right">添加文字链接</a>
+  <div class="clear"></div>
+  <div class="article_list">
+    <div class='check_page'>
+      <span id="check_title">选择页面</span>
+      <select name="check_page" id="check_">  
+        <foreach name="words_page" item="val">
+          <option value="{$val.bp_id}" <?php if($bp_id == $val['bp_id']){echo "selected='selected'";} ?>>{$val.bp_name}</option>
+        </foreach>
+      </select>
+    </div>
+    <div class="clear"></div>
+    <div class="table_title">
+      <form action="" method="post">  
+      <div class="wz_title">
+        <div class="wz_table1"><input id="allbox1" type="checkbox"/>全选</div>
+        <div class="wz_table4">网站名称</div>
+        <div class="wz_table5">链接地址</div>
+        <div class="wz_table3">顺序</div>
+        <div class="wz_table2">操作</div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <foreach name="w_link" item="val">
+      <div class="table_list">
+        <div class="wz_list">
+          <div class="wz_table1"><input type="checkbox" class="zi_choose" name="idarr[]" value="{$val.wl_id}"/></div>
+          <div class="wz_table4"><input type="text" value="{$val.wl_name}" wlid="{$val.wl_id}" class="wl_name"></div>
+          <div class="wz_table5"><input type="text" value="{$val.wl_gourl}" wlid="{$val.wl_id}" class="wl_gourl"></div>
+          <div class="wz_table3"><input type="tel" value="{$val.wl_order}" wlid="{$val.wl_id}" class="wl_order" /></div>
+          <div class="wz_table2"><a class="aa1" href="{:U('/Admin/Link/words_del',array('wid'=>$val['wl_id']))}">删除</a></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </foreach>
+    <div class="pagelist">
+      <input type="submit" value="删除所选" class="delete">
+    </div>
+    </form>
+  </div>
+</div>
+<!-- 权限判断 -->
+<input type="hidden" name="power" value="{$current_admin.admin_power}">
+<div class="clear"></div>
+<script type="text/javascript">
+var adm_power = $("input[name='power']").val();
+if(adm_power.indexOf('文字链接') === -1){
+  $('.wl_name,.wl_gourl,.wl_order').addClass('friendShip1_notice_block show_block');
+  $('.aa1,.home_right').addClass('friendShip1_notice_block show_block').attr('href','javascript:;');
+  $('.delete').addClass('friendShip1_notice_block show_block').attr('type','button');
+}else{
+  $('.wl_name').blur(function(){
+    var wl_name = $(this).val();
+    var id = $(this).attr('wlid');
+    $.post('/Admin/Link/change_name',{'wl_name':wl_name,'id':id},function(data){
+      if(data){
+        return true;
+      }
+    },'json');
+  });
+  $('.wl_gourl').blur(function(){
+    var wl_gourl = $(this).val();
+    var id = $(this).attr('wlid');
+    $.post('/Admin/Link/change_gourl',{'wl_gourl':wl_gourl,'id':id},function(data){
+      if(data){
+        return true;
+      }
+    },'json');
+  });
+  $('.wl_order').blur(function(){
+    var wl_order = $(this).val();
+    var id = $(this).attr('wlid');
+    $.post('/Admin/Link/change_order',{'wl_order':wl_order,'id':id},function(data){
+      if(data){
+        return true;
+      }
+    },'json');
+  });
+  $(function(){
+  $(".aa1").click(
+    function(){
+    $(this).css("display","none");
+      $(this).next().css("display","inline-block");
+      }
+    );
+  });
+
+  $(function(){
+    $(".aa4").click(
+      function(){
+      $(this).css("display","none");
+      $(this).prev().css("display","inline-block");
+      }
+    );
+  });
+}
+  $('#check_').change(function(){
+    var bp_id = $(this).val();
+    var url = '/Admin/Link/words_link/bp/'+bp_id;
+    window.location.href = url;
+  });
+  function DropDown(el) {
+  this.dd = el;
+  this.placeholder = this.dd.children('span');
+  this.opts = this.dd.find('ul.dropdown > li');
+  this.val = '';
+  this.index = -1;
+  this.initEvents();
+  }
+  DropDown.prototype = {
+  initEvents : function() {
+  var obj = this;
+  
+  obj.dd.on('click', function(event){
+  $(this).toggleClass('active');
+  return false;
+  });
+  
+  obj.opts.on('click',function(){
+  var opt = $(this);
+  obj.val = opt.text();
+  obj.index = opt.index();
+  obj.placeholder.text(obj.val);
+  });
+  },
+  getValue : function() {
+  return this.val;
+  },
+  getIndex : function() {
+  return this.index;
+  }
+  }
+  
+  $(function() {
+  
+  var dd = new DropDown( $('#dd') );
+  
+  $(document).click(function() {
+  // all dropdowns
+  $('.wrapper-dropdown-3').removeClass('active');
+  });
+  
+  });
+  
+
+$("#allbox1").click(function(){    
+    if (this.checked){
+    $(".rightfix :checkbox").each(function(){
+      this.checked=true;
+    });
+  }else{
+    $(".rightfix :checkbox").each(function(){
+      this.checked=false;
+    });
+  }
+});
+</script>
+<div class="bottom">声明：系统开发版权归重庆艾斯顿文化传媒有限公司所有，翻版必究</div>
+<include file="Common/alert" />
+</body>
+</html>

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*默认
+------------------------------------------------------*/
+body{font-family: "微软雅黑";font-size: 1em;text-decoration: none;color: #777;}
+a{text-decoration: none; color: #777}
+/*a:hover{color: #f60}*/
+/*容器*/
+.wrapper{display: block; width: 100%; min-width: 1090px; position: relative;}
+.w1200{width: 1200px;display: block;margin: 0 auto}
+.w1090{width: 1090px;display: block;margin: 0 auto}
+.w640{width: 640px;margin: 0 auto;display: block;}
+/*背景颜色*/
+
+/*字体颜色*/
+.font-danger{color: #c9302c}
+.font-warming{color: #ec971f}
+.font-primary{color: #286090}
+.font-success{color:#449d44 }
+.font-info{color:#5bc0de}
+
+/*边框*/
+.bor{border: 1px solid #f0f0f0}
+.bor-t1{border-top: 1px solid #f0f0f0}
+.bor-r1{border-right: 1px solid #f0f0f0}
+.bor-b1{border-bottom: 1px solid #f0f0f0}
+.bor-l1{border-left: 1px solid #f0f0f0}
+
+
+/*浮动*/
+.fl{float: left;}
+.fr{float: right}
+.clear{clear:both;height:0;overflow:hidden;}
+
+/*外边距设置*/
+/*5px*/
+.mar5{margin: 5px;}
+.mar-t5{margin-top: 5px;}
+.mar-r5{margin-right: 5px;}
+.mar-b5{margin-bottom: 5px;}
+.mar-l5{margin-left: 5px;}
+
+/*10px*/
+.mar10{margin: 10px;}
+.mar-t10{margin-top: 10px;}
+.mar-r10{margin-right: 10px;}
+.mar-b10{margin-bottom: 10px;}
+.mar-l10{margin-left: 10px;}
+
+/*15px*/
+.mar15{margin: 15px;}
+.mar-t15{margin-top: 15px;}
+.mar-r15{margin-right: 15px;}
+.mar-b15{margin-bottom: 15px;}
+.mar-l15{margin-left: 15px;}
+/*内边距*/
+/*5px*/
+.padd5{padding: 5px;}
+.padd-t5{padding-top: 5px;}
+.padd-r5{padding-right: 5px;}
+.padd-b5{padding-bottom: 5px;}
+.padd-l5{padding-left: 5px;}
+
+/*10px*/
+.padd10{padding: 10px;}
+.padd-t10{padding-top: 10px;}
+.padd-r10{padding-right: 10px;}
+.padd-b10{padding-bottom: 10px;}
+.padd-l10{padding-left: 10px;}
+
+.padd15{padding: 15px;}
+
+.padd-b30{padding-bottom: 30px;}
+/*定位*/
+.fixed{position: fixed; _position: absolute;}
+.abso{position: absolute;}
+.rela{position: relative;}
+
+/*按钮*/
+
+.but{display: inline-block; width: 100%;margin-bottom: 0;font-size: 2.3em;  font-weight: 400;line-height: 2em;text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none; border-radius: 4px;}
+
+.but-dafult{color: #333;background-color: #fff;border-color: #ccc;}
+.but-dafult:focus{color:#333;background-color:#e6e6e6;border-color:#8c8c8c}
+.but-default:hover{color:#333;background-color:#e6e6e6;border-color:#adadad}
+.but-default:active{color:#333;background-color:#e6e6e6;border-color:#adadad}
+
+.but-danger{background-color: #c9302c; color: #fff;border-color:#d43f3a}
+.but-danger:focus{color:#fff;background-color:#c9302c;border-color:#761c19}
+.but-danger:hover{color:#fff;background-color:#c9302c;border-color:#ac2925}
+.but-danger:active{color:#fff;background-color:#c9302c;border-color:#ac2925}
+
+.but-warning{background-color: #ec971f; color: #fff;border-color:#eea236 }
+.but-warning:focus{color:#fff;background-color:#ec971f;border-color:#985f0d}
+.but-warning:hover{color:#fff;background-color:#ec971f;border-color:#d58512}
+.but-warning:active{color:#333;background-color:#e6e6e6;border-color:#adadad}
+
+.but-primary{background-color: #286090; color: #fff;border-color:#2e6da4 }
+.but-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}
+.but-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}
+.but-primary:active{color:#333;background-color:#e6e6e6;border-color:#adadad}
+
+.but-success{background-color:#449d44 ; color: #fff;border-color:#4cae4c }
+.but-success:focus{color:#fff;background-color:#449d44;border-color:#255625}
+.but-success:hover{color:#fff;background-color:#449d44;border-color:#398439}
+.but-success:active{color:#fff;background-color:#449d44;border-color:#398439}
+
+.but-info{background-color:#5bc0de; color: #fff;border-color:#46b8da }
+.but-info:focus{color:#fff;background-color:#31b0d5;border-color:#1b6d85}
+.but-info:hover{color:#fff;background-color:#31b0d5;border-color:#269abc}
+.but-info:active{color:#fff;background-color:#31b0d5;border-color:#269abc}
+
+.but-gold{background-color: #f5ef6d; color: #d64821;border-color:#d43f3a}
+.but-gold:focus{color:#d64821;background-color:#f3eb39;}
+.but-gold:hover{color:#d64821;background-color:#f3eb39;}
+.but-gold:active{color:#d64821;background-color:#f3eb39;}
+
+.but-red{background: #cf0000; color: #f5ef6d; border: none;}

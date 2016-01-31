@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="页面描述"/>
+		<meta name="keywords" content="关键字,关键字"/>
+		<meta name="robots" content="index,follow"/>
+		<meta name="renderer" content="webkit">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="__CSS__global.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="center-block head cl">
+				<div class="logo fl">
+					<a href=""><img src="__IMAGES__logo.png"/></a>
+				</div>
+			   <include file="Common/header1" />	
+			</div>
+			<div class="banner"></div>
+		</div>
+		<div class="center-block">
+			<div class="location">
+				<span>您当前位置：</span>
+				<a href="/index.php/Home/Index/index">首页</a>
+				<!--<span>&gt;</span>
+				<a href="/index.php/Home/News/news/id/2"></a>-->
+				<span>&gt;</span>
+				<a href="" class="cur">动态资讯</a>
+			</div>
+			<div class="tab cl">
+				<!--<a href="" class="fl on">最新资讯</a>
+				<a href="" class="fl">彩妆资讯</a>
+				<a href="" class="fl">实习活动</a>
+				<a href="" class="fl">学员就业工作</a>-->
+				<foreach name="catedata" item="vo">
+				   <a href="/index.php/Home/News/news/id/{$vo['cate_id']}" <?php if($_GET['id']==$vo['cate_id']){echo 'class="fl on"';} ?> class="fl">{$val['cate_name']} {$vo['cate_name']}</a>
+				</foreach>
+			</div>
+			<div class="list4">
+				<foreach name="data" item="val">
+					<a href="/index.php/Home/News/detail/id/{$val['art_id']}" class="cl">
+						<span class="list-style fl"></span>
+						<span class="title fl">{$val['art_title']}</span>
+						<span class="date fr">{$val['art_addtime']}</span>
+					</a>
+				</foreach>
+			</div>
+			<div class="cl">
+				<div class="page_turn fr cl">
+					<a href="" class="fl change">首页</a>
+					<a href="" class="fl change">上一页</a>
+					<a href="" class="fl num on">1</a>
+					<a href="" class="fl num">2</a>
+					<a href="" class="fl num">3</a>
+					<a href="" class="fl num">4</a>
+					<span class="fl">...</span>
+					<a href="" class="fl num">12</a>
+					<a href="" class="fl change">下一页</a>
+					<a href="" class="fl change">末页</a>
+					<span class="fl">跳转至</span>
+					<input class="fl" type="text" />
+					<input class="fl" type="submit" value="确定" />
+				</div>
+			</div>
+		</div>
+   <include file="Common/foot1" />	
+	</body>
+</html>
+<script type="text/javascript" src="__JS__jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="__JS__js.js"></script>

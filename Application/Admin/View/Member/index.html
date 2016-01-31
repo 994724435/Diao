@@ -1,0 +1,80 @@
+<include file="Common/header" />
+<div class="rightfix">
+    <a href="{:U('/Admin/Index/index')}" class="home1"></a><a class="home_pass">作品管理</a><a class="home_now">作品列表</a>
+    <div class="clear"></div>
+    <div class="article_list" style="width:980px;">
+        <!-- 文章分类及模糊搜索 -->
+        <div class="title">
+          <div class="span">选择分类</div>
+          <div id="dd" class="wrapper-dropdown-3" tabindex="1">
+            <span style="color:#e2e1e1;"><if condition="$cid neq 0">{$cate.cate_name}<else />未分类</if></span> 
+            <ul class="dropdown"> 
+              <li><a onclick="javascript:window.location.href='{:U('/Admin/Article/index')}'">未分类</a></li> 
+              <foreach name="acate" item="value"> 
+                <li><a onclick="javascript:window.location.href='{:U('/Admin/Article/index',array('cid'=>$value['cate_id']))}'">{$value.cate_name}</a></li> 
+              </foreach> 
+            </ul> 
+          </div> 
+          <div id="aa" class="wrapper-dropdown-3" tabindex="1"> 
+            <span style="color:#e2e1e1;"><?php if($cid && $sid){echo $ccate['cate_name'];}else{echo "未分类";} ?></span> 
+            <if condition="$cid neq 0"> 
+              <ul class="dropdown">  
+                <li><a onclick="javascript:window.location.href='{:U('/Admin/Article/index',array('cid'=>$cate['cate_id']))}'">未分类</a></li> 
+                <foreach name="scate" item="val"> 
+                  <li><a onclick="javascript:window.location.href='{:U('/Admin/Article/index',array('cid'=>$cate['cate_id'],'sid'=>$val['cate_id']))}'">{$val.cate_name}</a></li> 
+                </foreach> 
+              </ul> 
+            <else /> 
+              <ul class="dropdown"> 
+                <li><a onclick="javascript:window.location.href='{:U('/Admin/Article/index',array('cid'=>$cate['cate_id']))}'">未分类</a></li> 
+              </ul> 
+            </if> 
+          </div> 
+          <form class="allen" action="{:U('/Admin/Article/index')}"> 
+            <button type="submit"><span class="glyphicon glyphicon-search"></span></button> <input type="text" value="" class="search" placeholder="输入关键字搜索" name="q" id="searchBox" > 
+          </form> 
+        </div>
+        <div class="clear"></div>
+        <!-- 文章列表  -->
+        <form action="{:U('Admin/Article/formDelete')}" style="margin:20px 20px;" method="post">
+          <table> 
+            <tr class="table_title"> 
+              <td class="table1"><input id="allbox1" type="checkbox" />全选</td> 
+              <td class="table4">标题</td> 
+              <td class="table2">操作</td> 
+              <td class="table3">时间</td> 
+            </tr> 
+            <div class="clear"></div> 
+            <foreach name="data" item="value"> 
+              <tr class="table_list"> 
+                <td class="table1"><input type="checkbox" value="{$value['art_id']}" name="idarr[]"/></td> 
+                <td class="table4">{$value.p_title}</td> 
+                <td div class="table2"> 
+                    <a href="/index.php/Admin/Member/edit/id/{$value['p_id']}" class="aa2">编辑</a> / 
+                    <a href="/index.php/Admin/Member/delete/id/{$value['p_id']}" class="aa3">删除</a>
+                </td> 
+                <td class="table3">{$value.p_addtime}</td> 
+              </tr> 
+              <div class="clear">
+            </div> 
+          </foreach> 
+        </table> 
+        <div class="pagelist"> 
+          <button type="submit" class="delete">删除所选</button> <div class="pagenum">{$show}</div> 
+        </div> 
+      </form>
+    </div>
+  </div>
+<!-- 权限判断 -->
+<input type="hidden" name="power" value="{$current_admin.admin_power}">
+      
+
+
+<div class="clear"></div>
+
+<div class="bottom">声明：系统开发版权归重庆艾斯顿文化传媒有限公司所有，翻版必究</div>
+
+<include file="Common/alert" />
+
+</body>
+</html>

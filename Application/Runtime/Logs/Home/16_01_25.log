@@ -1,0 +1,470 @@
+[ 2016-01-25T10:39:02+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-01-25T10:40:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-01-25T10:54:08+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2016-01-25T10:58:30+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2016-01-25T10:58:38+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000504s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005224s ]
+
+[ 2016-01-25T10:58:39+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-01-25T11:05:44+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000830s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-01-25T11:05:48+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000665s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000922s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-01-25T11:05:49+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-01-25T11:12:18+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000454s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2016-01-25T11:12:25+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2016-01-25T11:12:31+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000537s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-01-25T11:12:39+08:00 ] ::1 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000649s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000847s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-01-25T11:12:39+08:00 ] ::1 /index.php/Home/Index/font-awesome-4.2.0/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+ERR: 非法操作:font-awesome-4.2.0
+
+[ 2016-01-25T11:16:06+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003029s ]
+
+[ 2016-01-25T11:29:47+08:00 ] ::1 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2016-01-25T11:29:47+08:00 ] ::1 /index.php/Home/Index/font-awesome-4.2.0/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+ERR: 非法操作:font-awesome-4.2.0
+
+[ 2016-01-25T13:32:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `ast_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ast_article`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 5  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 8  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 9  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ast_article` WHERE `art_cateid` = 19  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000765s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
